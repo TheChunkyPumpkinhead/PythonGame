@@ -9,3 +9,12 @@ if playing.lower() != "yes":
     quit()
 
 print("Awesome! Let's do this")  
+
+
+#variable to get input from user and an if statement
+answer = input("Are you using a computer? ")
+if answer.lower() == "yes":
+    print("Correct!")
+
+
+
