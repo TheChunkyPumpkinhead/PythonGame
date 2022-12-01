@@ -49,6 +49,8 @@ if answer.lower() == "yes":
     score += 1
 else:
     print("Incorrect")
+  
+print("You got " + str(score) + " questions correct!")
 
 
 
