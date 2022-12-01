@@ -15,18 +15,32 @@ print("Awesome! Let's do this")
 answer = input("Are you using a computer? ")
 if answer.lower() == "yes":
     print("Correct!")
-answer = input("Are you using a computer? ")
+else:
+    print("Incorrect")
+
+answer = input("Is the sky up? ")
 if answer.lower() == "yes":
     print("Correct!")
-answer = input("Are you using a computer? ")
+else:
+    print("Incorrect")
+
+answer = input("Do cats meow? ")
 if answer.lower() == "yes":
     print("Correct!")
-answer = input("Are you using a computer? ")
+else:
+    print("Incorrect")
+
+answer = input("Do dogs bark? ")
 if answer.lower() == "yes":
     print("Correct!")
-answer = input("Are you using a computer? ")
+else:
+    print("Incorrect")
+
+answer = input("Do turtles swim? ")
 if answer.lower() == "yes":
     print("Correct!")
+else:
+    print("Incorrect")
 
 
 
