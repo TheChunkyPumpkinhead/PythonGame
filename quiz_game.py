@@ -50,7 +50,10 @@ if answer.lower() == "yes":
 else:
     print("Incorrect")
   
+#function with string concatenation operator and integer/string convertion
 print("You got " + str(score) + " questions correct!")
+
+#funtion with string concatenation operator and percentage operator
 print("You got " + str((score / 5) * 100) + "%.")
 
 
